@@ -11,6 +11,8 @@ public class Application extends Frame {
 	public Application() {
 		super();
 		
+		System.out.println("Autre ligne");
+		
 		Modèle modl = new Modèle();
 		Contrôleur ctrl = new Contrôleur(modl); 
 		Vue vue = new Vue();
